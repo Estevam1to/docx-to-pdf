@@ -6,7 +6,7 @@ Este é um conversor de arquivos DOCX para PDF escrito em Rust. Ele permite conv
 
 - Conversão de arquivos DOCX para PDF
 - Suporte para texto, imagens e tabelas simples
-- Manutenção de formatação básica
+- Manutenção de formatação básica, ainda não formata igual o docx de entrada, irei melhorar isso no futuro.
 - Redimensionamento e centralização de imagens
 - Logging para acompanhamento do processo de conversão
 
