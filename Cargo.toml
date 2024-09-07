@@ -1,0 +1,15 @@
+[package]
+name = "docx"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+itertools = "0.13.0"
+docx-rs = "0.4.17"
+docx-rust = "0.1.8"
+printpdf = { version = "0.7.0", features = ["embedded_images"] }
+anyhow = "1.0"
+log = "0.4"
+env_logger = "0.11"
+image = { version = "0.25.2", features = ["png", "jpeg", "bmp"] }
+zip = "2.2.0"
